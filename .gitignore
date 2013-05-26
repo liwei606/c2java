@@ -1,0 +1,16 @@
+*.dSYM
+*.orig
+*.aux
+*.pdf
+*.tar
+smallc.tab.*
+smallc.output
+*.yy.c
+smallc
+scc
+*.o
+*.tmp
+*.log
+tests/*.html
+testcases/*/*.s
+

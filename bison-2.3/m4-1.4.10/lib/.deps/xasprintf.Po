@@ -1,0 +1,8 @@
+xasprintf.o: xasprintf.c config.h xvasprintf.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.6/include/stdarg.h
+
+config.h:
+
+xvasprintf.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.6/include/stdarg.h:

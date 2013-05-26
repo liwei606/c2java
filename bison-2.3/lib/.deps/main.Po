@@ -1,0 +1,25 @@
+main.o: main.c ../config.h /usr/include/locale.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.6/include/stddef.h \
+ /usr/include/bits/locale.h /usr/include/xlocale.h
+
+../config.h:
+
+/usr/include/locale.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.6/include/stddef.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/xlocale.h:

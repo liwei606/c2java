@@ -1,0 +1,11 @@
+asnprintf.o: asnprintf.c config.h vasnprintf.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.6/include/stdarg.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.6/include/stddef.h
+
+config.h:
+
+vasnprintf.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.6/include/stdarg.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.6/include/stddef.h:

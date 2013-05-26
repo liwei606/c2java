@@ -1,0 +1,430 @@
+struct.java:22: error: non-static variable this cannot be referenced from a static context
+	static acrossthegreatxxxxwallwecanreacheverycornerintheworld A = new acrossthegreatxxxxwallwecanreacheverycornerintheworld(), B = new acrossthegreatxxxxwallwecanreacheverycornerintheworld();
+	                                                                 ^
+struct.java:22: error: non-static variable this cannot be referenced from a static context
+	static acrossthegreatxxxxwallwecanreacheverycornerintheworld A = new acrossthegreatxxxxwallwecanreacheverycornerintheworld(), B = new acrossthegreatxxxxwallwecanreacheverycornerintheworld();
+	                                                                                                                                  ^
+struct.java:23: error: non-static variable this cannot be referenced from a static context
+	static haoehaoehaoewozhendehaoe C = new haoehaoehaoewozhendehaoe();
+	                                    ^
+struct.java:24: error: non-static variable this cannot be referenced from a static context
+	static doubleO R = new doubleO(), G = new doubleO(), T = new doubleO();
+	                   ^
+struct.java:24: error: non-static variable this cannot be referenced from a static context
+	static doubleO R = new doubleO(), G = new doubleO(), T = new doubleO();
+	                                      ^
+struct.java:24: error: non-static variable this cannot be referenced from a static context
+	static doubleO R = new doubleO(), G = new doubleO(), T = new doubleO();
+	                                                         ^
+6 errors
+struct.java:22: error: non-static variable this cannot be referenced from a static context
+	static acrossthegreatxxxxwallwecanreacheverycornerintheworld A = new acrossthegreatxxxxwallwecanreacheverycornerintheworld(), B = new acrossthegreatxxxxwallwecanreacheverycornerintheworld();
+	                                                                 ^
+struct.java:22: error: non-static variable this cannot be referenced from a static context
+	static acrossthegreatxxxxwallwecanreacheverycornerintheworld A = new acrossthegreatxxxxwallwecanreacheverycornerintheworld(), B = new acrossthegreatxxxxwallwecanreacheverycornerintheworld();
+	                                                                                                                                  ^
+struct.java:23: error: non-static variable this cannot be referenced from a static context
+	static haoehaoehaoewozhendehaoe C = new haoehaoehaoewozhendehaoe();
+	                                    ^
+struct.java:24: error: non-static variable this cannot be referenced from a static context
+	static doubleO R = new doubleO(), G = new doubleO(), T = new doubleO();
+	                   ^
+struct.java:24: error: non-static variable this cannot be referenced from a static context
+	static doubleO R = new doubleO(), G = new doubleO(), T = new doubleO();
+	                                      ^
+struct.java:24: error: non-static variable this cannot be referenced from a static context
+	static doubleO R = new doubleO(), G = new doubleO(), T = new doubleO();
+	                                                         ^
+6 errors
+fib.java:12: error: illegal start of expression
+		or (; (x) != 0;x >>= 1) {
+		     ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		      ^
+fib.java:12: error: not a statement
+		or (; (x) != 0;x >>= 1) {
+		        ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		         ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		                       ^
+5 errors
+fib.java:12: error: illegal start of expression
+		or (; (x) != 0;x >>= 1) {
+		     ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		      ^
+fib.java:12: error: not a statement
+		or (; (x) != 0;x >>= 1) {
+		        ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		         ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		                       ^
+5 errors
+fib.java:12: error: illegal start of expression
+		or (; (x) != 0;x >>= 1) {
+		     ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		      ^
+fib.java:12: error: not a statement
+		or (; (x) != 0;x >>= 1) {
+		        ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		         ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		                       ^
+5 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors
+fib.java:12: error: illegal start of expression
+		or (; (x) != 0;x >>= 1) {
+		     ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		      ^
+fib.java:12: error: not a statement
+		or (; (x) != 0;x >>= 1) {
+		        ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		         ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		                       ^
+5 errors
+fib.java:12: error: illegal start of expression
+		or (; (x) != 0;x >>= 1) {
+		     ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		      ^
+fib.java:12: error: not a statement
+		or (; (x) != 0;x >>= 1) {
+		        ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		         ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		                       ^
+5 errors
+fib.java:12: error: illegal start of expression
+		or (; (x) != 0;x >>= 1) {
+		     ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		      ^
+fib.java:12: error: not a statement
+		or (; (x) != 0;x >>= 1) {
+		        ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		         ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		                       ^
+5 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors
+fib.java:12: error: illegal start of expression
+		or (; (x) != 0;x >>= 1) {
+		     ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		      ^
+fib.java:12: error: not a statement
+		or (; (x) != 0;x >>= 1) {
+		        ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		         ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		                       ^
+5 errors
+fib.java:12: error: illegal start of expression
+		or (; (x) != 0;x >>= 1) {
+		     ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		      ^
+fib.java:12: error: not a statement
+		or (; (x) != 0;x >>= 1) {
+		        ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		         ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		                       ^
+5 errors
+fib.java:12: error: illegal start of expression
+		or (; (x) != 0;x >>= 1) {
+		     ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		      ^
+fib.java:12: error: not a statement
+		or (; (x) != 0;x >>= 1) {
+		        ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		         ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		                       ^
+5 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors
+fib.java:12: error: illegal start of expression
+		or (; (x) != 0;x >>= 1) {
+		     ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		      ^
+fib.java:12: error: not a statement
+		or (; (x) != 0;x >>= 1) {
+		        ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		         ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		                       ^
+5 errors
+fib.java:12: error: illegal start of expression
+		or (; (x) != 0;x >>= 1) {
+		     ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		      ^
+fib.java:12: error: not a statement
+		or (; (x) != 0;x >>= 1) {
+		        ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		         ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		                       ^
+5 errors
+fib.java:12: error: illegal start of expression
+		or (; (x) != 0;x >>= 1) {
+		     ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		      ^
+fib.java:12: error: not a statement
+		or (; (x) != 0;x >>= 1) {
+		        ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		         ^
+fib.java:12: error: ';' expected
+		or (; (x) != 0;x >>= 1) {
+		                       ^
+5 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors
+queen.java:20: error: ')' expected
+		or (i = 0; (i < n); ++i) {
+		          ^
+queen.java:20: error: not a statement
+		or (i = 0; (i < n); ++i) {
+		            ^
+queen.java:20: error: ';' expected
+		or (i = 0; (i < n); ++i) {
+		                        ^
+3 errors

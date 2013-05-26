@@ -1,0 +1,27 @@
+dnl @ ../doc/m4.texinfo:5615: Origin of test
+dnl @ expected status: 0
+dnl @ extra options: 
+dnl @ Copyright (C) 2006, 2007 Free Software Foundation
+dnl @ This file is free software; the Free Software Foundation
+dnl @ gives unlimited permission to copy and/or distribute it
+dnl @ with or without modifications, as long as this notice
+dnl @ is preserved.
+syscmd(`echo foo??????')dnl
+dnl @result{}foo??????
+define(`file1', maketemp(`fooXXXXXX'))dnl
+ifelse(esyscmd(`echo foo??????'), `foo??????', `no file', `created')
+dnl @result{}created
+define(`file2', maketemp(`fooXX'))dnl
+define(`file3', mkstemp(`fooXXXXXX'))dnl
+ifelse(len(file1), len(file2), `same length', `different')
+dnl @result{}same length
+ifelse(file1, file2, `same', `different file')
+dnl @result{}different file
+ifelse(file2, file3, `same', `different file')
+dnl @result{}different file
+ifelse(file1, file3, `same', `different file')
+dnl @result{}different file
+syscmd(`rm 'file1 file2 file3)
+dnl @result{}
+sysval
+dnl @result{}0
