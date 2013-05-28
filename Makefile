@@ -1,6 +1,6 @@
-TEST_NAME=test
+
 src=$(shell find src/ -name "*.c")
-TEST_FILES=$(shell find tests/ -name "*.c")
+
 TARBALL_FILES=report.pdf Makefile \
 	src/c2java.h src/c2java.l src/c2java.tab.h src/c2java.y $(src) \
 	README
@@ -16,9 +16,6 @@ report.pdf: report.tex
 
 tarball: $(TARBALL_FILES)
 	tar cvf 5092029004.tar $(TARBALL_FILES)
-
-oldtest: c2java $(TEST_FILES)
-	./c2java $(TEST_FILES).c $(TEST_FILES).html
 
 test: c2java
 	./runtest.sh
