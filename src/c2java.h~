@@ -43,6 +43,12 @@ typedef struct ast_node {
             struct ast_node *head;
             struct ast_node *tail;
         } list;
+       /* 
+        struct {
+            int var_type;
+            struct ast_node *extvars;
+        } vardef;
+        */
 
         struct {
             int ret_type;

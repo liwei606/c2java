@@ -9,7 +9,7 @@ public class fib
 	static int solve (int x)  {
 		int p, q, r, s;
 		int ans[] = {0, 1};
-		for (; (x) != 0; x >>= 1) {
+		for (; x != 0; x >>= 1) {
 			if ((x & 1) != 0) {
 				p = ans[0] * mat[0] + ans[1] * mat[2];
 				q = ans[0] * mat[1] + ans[1] * mat[3];

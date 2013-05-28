@@ -469,6 +469,8 @@ static void trans_break_stmt(ast_node *n)
 }
 
 
+	
+
 static void trans_binop(ast_node *n)
 {	
     trans_ast(n->binop.lhs);

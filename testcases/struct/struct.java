@@ -27,7 +27,7 @@ public class struct
 		A.sigcomm = in.nextInt();
 		C.huoguo = in.nextInt();
 		G.FACEBOOK = T.GOOGLE ^ C.huoguo;
-		if ((G.FACEBOOK == A.sigcomm)) {
+		if (G.FACEBOOK == A.sigcomm) {
 			C.huiguorou = 215;
 		}
 		else {

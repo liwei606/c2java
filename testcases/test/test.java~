@@ -1,0 +1,35 @@
+import java.util.*;
+
+public class test
+{
+	static Scanner in = new Scanner(System.in);
+	static int a, b = 1;
+	static int f ()  {
+		int i;
+		for (i = 0; (((i < 10) && (i <= 9)) || i); ++i) {
+			if ((i < 5)) {
+				continue;
+			}
+			else {
+				break;
+			}
+		}
+		return i;
+	}
+	static class T {
+		public int y;
+	};
+	static int main_(int argc, String[] args)  {
+		T [][][] x;
+		x = new T[10][20][30] = new T();
+		x[1][2][3].y = 123;
+		a = b = 2;
+		a += 2;
+		System.out.println(x[1][2][3].y);
+		System.out.println(123 + 456 * 789);
+		return -889275714;
+	}
+	public static void main(String[] args) {
+		System.exit(main_(args.length, args));
+	}
+}

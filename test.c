@@ -1,8 +1,9 @@
+#include <stdio.h>
 int a, b = 1;
 
 int f() {
     int i;
-    for (i = 0; i < 10 && i <= 9 || i >= 0-1; ++i) {
+    for (i = 0; i < 10 && i <= 9 || i; ++i) {
         if (i < 05) {
             continue;
         } else break;
@@ -19,7 +20,7 @@ int main(int argc) {
     x[1][2][3].y = 123;
     a = b = 2;
     a += 2;
-    write("%d\n", x[1][2][3].y);
-    write("%d\n", 123 + 456 * 789);
+    printf("%d\n", x[1][2][3].y);
+    printf("%d\n", 123 + 456 * 789);
     return 0xCAFEBABE;
 }

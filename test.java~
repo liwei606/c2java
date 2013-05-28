@@ -27,7 +27,7 @@ public class test
 		}
 		x[1][2][3].y = 123;
 		a = b = 2;
-		a += 2;
+		a += (b + 2);
 		System.out.print(String.format("%d\n", x[1][2][3].y));
 		System.out.print(String.format("%d\n", 123 + 456 * 789));
 		return 0xCAFEBABE;

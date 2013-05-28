@@ -5,7 +5,7 @@ public class euclid
 	static Scanner in = new Scanner(System.in);
 	static int a, b;
 	static int gcd (int x, int y)  {
-		if ((y == 0)) {
+		if ((y) == 0) {
 			return x;		}
 		return gcd(y, x % y);
 	}

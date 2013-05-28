@@ -464,7 +464,7 @@ There are several differences between C and Java. So during the translations som
 	
 \begin{figure}
   \centering
-  \includegraphics[width=\textwidth]{sarray}
+  \includegraphics[width=0.9\textwidth]{sarray}
   \caption{Example: Struct and Int array initialization}
   \label{fig:sarray}
 \end{figure}

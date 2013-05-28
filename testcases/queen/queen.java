@@ -13,11 +13,11 @@ public class queen
 	static { r = new int[40]; }
 	static int dfs (int x)  {
 		int i;
-		if ((x == n)) {
+		if (x == n) {
 			++ans;
 			return 0;		}
-		for (i = 0; (i < n); ++i) {
-			if ((b[i] == 0 && l[i + x] == 0 && r[i - x + n - 1] == 0)) {
+		for (i = 0; i < n; ++i) {
+			if ((b[i]) == 0 && (l[i + x]) == 0 && (r[i - x + n - 1]) == 0) {
 				b[i] = 1;
 				l[i + x] = 1;
 				r[i - x + n - 1] = 1;
@@ -31,7 +31,7 @@ public class queen
 	}
 	static int main_(int argc, String[] args)  {
 		n = in.nextInt();
-		if ((n > 16)) {
+		if (n > 16) {
 			System.out.println(-1);
 		}
 		else {
