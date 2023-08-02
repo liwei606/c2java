@@ -66,6 +66,9 @@
 
 [ \t\v\r\n\f]   { /* skip */ }
 
+"//".*          { /*a C comment*/ }
+"/*"(.|\n)*"*/" { /*a C comment*/ }
+
 .       { /* ignore bad characters */ }
 
 %%
