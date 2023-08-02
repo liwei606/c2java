@@ -6,8 +6,8 @@ TARBALL_FILES=report.pdf Makefile \
 	README
 
 c2java: src/c2java.l src/c2java.y src/c2java.h $(src)
-	cd src && bison -d c2java.y && flex c2java.l
-	cc -o $@ $(src) -g -std=c99
+	cd src; flex --fast c2java.l; bison -d c2java.y
+	cc -o $@ src/*.c -g -std=c99
 
 report: report.pdf
 
