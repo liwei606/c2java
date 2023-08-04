@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include "c2java.h"
 
-
+#ifdef DEBUG
 typedef void (*ast_printer)(ast_node *n);
 
 static ast_printer g_ast_printers[AST_TYPE_LIMIT];
@@ -357,3 +357,5 @@ void print_ast(ast_node *n)
         printf("NULL");
     }
 }
+
+#endif // DEBUG

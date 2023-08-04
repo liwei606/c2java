@@ -13,4 +13,5 @@ scc
 *.log
 tests/*.html
 testcases/*/*.s
-
+log
+c2java

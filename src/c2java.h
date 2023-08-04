@@ -309,7 +309,9 @@ extern ast_node *init_arg_new(int sym_name, ast_expr *expr);
 /** Declarations **/
 
 extern void set_parse_tree(ast_node *tree);
+#ifdef DEBUG
 extern void print_ast(ast_node *n);
+#endif
 extern void report_error(const char *fmt, ...);
 extern void check_ast(ast_node *n);
 extern void check_semantics(ast_node *ast);

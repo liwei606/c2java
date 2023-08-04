@@ -69,7 +69,19 @@ void vscope_addnode(struct vscope *v, int sym_id, int type_id, int offset)
 
 void end_vscope()
 {
+    struct vscope *to_free = current_vscope;
     current_vscope = current_vscope->parent;
+
+    //free nodes
+    struct vscope_node* head = to_free->list, *tmp = NULL;
+    while (head != NULL)
+    {
+        tmp = head;
+        head = head->next;
+        free(tmp);
+    }
+    
+    free(to_free);
 }
 
 static struct vscope_node * find_vnode_rec(struct vscope *c_vscope, int sym_id)
@@ -110,7 +122,17 @@ void tscope_addnode(struct tscope *t, int sym_id, int type_id)
 
 void end_tscope()
 {
+    struct tscope *to_free = current_tscope;
     current_tscope = current_tscope->parent;
+
+    struct tscope_node* head = to_free->list, *tmp = NULL;
+    while (head != NULL)
+    {
+        tmp = head;
+        head = head->next;
+        free(tmp);
+    }
+    free(to_free);
 }
 
 int lookup_ttype_rec(struct tscope *c_tscope, int sym_id)
